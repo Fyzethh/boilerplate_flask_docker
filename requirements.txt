@@ -1,0 +1,13 @@
+# Flask
+Flask==2.2.2
+gunicorn==20.1.0
+
+# GCP
+google-cloud-firestore==2.6.1 
+
+# SQL
+PyMySQL==1.0.2
+SQLAlchemy==1.4.40 
+
+# Redis
+redis==4.3.4

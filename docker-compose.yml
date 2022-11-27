@@ -6,7 +6,7 @@ services:
         
         build:
           context: .
-          target: debug
+          target: ${DOCKER_TARGET:-debug}
         container_name: ${DOCKER_SERVICE_NAME}
 
         env_file:
